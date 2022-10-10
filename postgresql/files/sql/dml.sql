@@ -1,0 +1,1 @@
+INSERT INTO table_code (promo_code) VALUES ('promo_code_1'),  ('promo_code_2'),  ('promo_code_3');
