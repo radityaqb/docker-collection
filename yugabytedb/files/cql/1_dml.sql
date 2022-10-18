@@ -1,0 +1,1 @@
+INSERT INTO example_keyspace.users(user_id, full_name) VALUES (1001, 'John Doe');
