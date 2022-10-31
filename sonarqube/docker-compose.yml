@@ -1,0 +1,11 @@
+version: "3"
+services:
+  sonarqube:
+    platform: linux/amd64
+    image: sonarqube:community
+    hostname: sonarqube
+    container_name: sonarqube
+    environment:
+      SONAR_ES_BOOTSTRAP_CHECKS_DISABLE: 'true'
+    ports:
+      - "9000:9000"
